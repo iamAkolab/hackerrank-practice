@@ -36,3 +36,40 @@ Note:
 The range of the 32-bit integer is (-2 ^31) to ((-2 ^31)) or [-2147483648 to 2147483647].
 When we add several integer values, the resulting sum might exceed the above range. You might need to use long int C/C++/Java to store such sums.
 """
+
+# ========================
+#         Solution
+# ========================
+
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'aVeryBigSum' function below.
+#
+# The function is expected to return a LONG_INTEGER.
+# The function accepts LONG_INTEGER_ARRAY ar as parameter.
+#
+
+def aVeryBigSum(ar):
+    # Write your code here
+    return(sum(ar))
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    ar_count = int(input().strip())
+
+    ar = list(map(int, input().rstrip().split()))
+
+    result = aVeryBigSum(ar)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+
