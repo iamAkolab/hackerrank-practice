@@ -1,4 +1,7 @@
-1. Anagram
+#----------------------------------------------------------------------------------------------------------------
+# Credit https://medium.com/@allwin-raju-12/50-python-one-liners-everyone-should-know-182ea7c8de9d?source=explore
+#----------------------------------------------------------------------------------------------------------------
+# 1. Anagram
 from collections import Counter
 
 s1 = 'below'
@@ -7,24 +10,38 @@ s2 = 'elbow'
 print('anagram') if Counter(s1) == Counter(s2) else print('not an anagram')
 or we can also do this using the sorted() method like this.
 print('anagram') if sorted(s1) == sorted(s2) else print('not an anagram')
-2. Binary to decimal
+
+#--------------------------------------------------------------------------------------
+# 2. Binary to decimal
 decimal = int('1010', 2)
 print(decimal) #10
-3. Converting string to lower case
+
+#--------------------------------------------------------------------------------------
+# 3. Converting string to lower case
 "Hi my name is Allwin".lower()
 # 'hi my name is allwin'
 "Hi my name is Allwin".casefold()
 # 'hi my name is allwin'
-4. Converting string to upper case
+
+#--------------------------------------------------------------------------------------
+# 4. Converting string to upper case
 "hi my name is Allwin".upper()
 # 'HI MY NAME IS ALLWIN'
-5. Converting string to byte
+
+#--------------------------------------------------------------------------------------
+# 5. Converting string to byte
 "convert string to bytes using encode method".encode()
 # b'convert string to bytes using encode method'
-6. Copy files
+
+#--------------------------------------------------------------------------------------
+# 6. Copy files
 import shutil; shutil.copyfile('source.txt', 'dest.txt')
-7. Quicksort
+
+#--------------------------------------------------------------------------------------
+# 7. Quicksort
 qsort = lambda l : l if len(l)<=1 else qsort([x for x in l[1:] if x < l[0]]) + [l[0]] + qsort([x for x in l[1:] if x >= l[0]])
+
+#--------------------------------------------------------------------------------------
 8. Sum of n consecutive numbers
 sum(range(0, n+1))
 This is not efficient and we can do the same using the below formula.
