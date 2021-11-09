@@ -42,29 +42,47 @@ import shutil; shutil.copyfile('source.txt', 'dest.txt')
 qsort = lambda l : l if len(l)<=1 else qsort([x for x in l[1:] if x < l[0]]) + [l[0]] + qsort([x for x in l[1:] if x >= l[0]])
 
 #--------------------------------------------------------------------------------------
-8. Sum of n consecutive numbers
+# 8. Sum of n consecutive numbers
 sum(range(0, n+1))
 This is not efficient and we can do the same using the below formula.
 sum_n = n*(n+1)//2
-9. Swap two values
+
+#--------------------------------------------------------------------------------------
+# 9. Swap two values
 a,b = b,a
-10. Fibonacci series
+
+#--------------------------------------------------------------------------------------
+# 10. Fibonacci series
 lambda x: x if x<=1 else fib(x-1) + fib(x-2)]
-11. Combine nested lists to a single list
+
+#--------------------------------------------------------------------------------------
+# 11. Combine nested lists to a single list
 [item for sublist in main_list for item in sublist]
-12. Run an HTTP server
+
+#--------------------------------------------------------------------------------------
+# 12. Run an HTTP server
 python3 -m http.server 8000
-13. Reverse a list
+
+#--------------------------------------------------------------------------------------
+# 13. Reverse a list
 numbers[::-1]
-14. Factorial of a number
+
+#--------------------------------------------------------------------------------------
+# 14. Factorial of a number
 import math; fact_5 = math.factorial(5)
-15. List comprehension using “for” and “if”
+
+#--------------------------------------------------------------------------------------
+# 15. List comprehension using “for” and “if”
 even_list = [number for number in [1, 2, 3, 4] if number % 2 == 0]
 # [2, 4]
-16. Longest string from a list
-# words = ['This', 'is', 'a', 'list', 'of', 'words']
+
+#--------------------------------------------------------------------------------------
+# 16. Longest string from a list
+words = ['This', 'is', 'a', 'list', 'of', 'words']
 max(words, key=len)
 # 'words'
+
+#--------------------------------------------------------------------------------------
 17. List comprehension
 li = [num for num in range(0,100)]
 # this will create a list of numbers from 0 to 99
