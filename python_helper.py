@@ -86,9 +86,11 @@ max(words, key=len)
 17. List comprehension
 li = [num for num in range(0,100)]
 # this will create a list of numbers from 0 to 99
+#--------------------------------------------------------------------------------------
 18. Set comprehension
 num_set = { num for num in range(0,100)}
 # this will create a set of numbers from 0 to 99
+#--------------------------------------------------------------------------------------
 19. Dictionary comprehension
 dict_numbers = {x:x*x for x in range(1,5) }
 # {1: 1, 2: 4, 3: 9, 4: 16}
