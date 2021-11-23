@@ -83,19 +83,25 @@ max(words, key=len)
 # 'words'
 
 #--------------------------------------------------------------------------------------
-17. List comprehension
+# 17. List comprehension
 li = [num for num in range(0,100)]
 # this will create a list of numbers from 0 to 99
+
 #--------------------------------------------------------------------------------------
-18. Set comprehension
+# 18. Set comprehension
 num_set = { num for num in range(0,100)}
 # this will create a set of numbers from 0 to 99
+
 #--------------------------------------------------------------------------------------
-19. Dictionary comprehension
+# 19. Dictionary comprehension
 dict_numbers = {x:x*x for x in range(1,5) }
 # {1: 1, 2: 4, 3: 9, 4: 16}
+
+#--------------------------------------------------------------------------------------
 20. if-else
 print("even") if 4%2==0 else print("odd")
+
+#--------------------------------------------------------------------------------------
 21. Infinite while loop
 while 1:0
 22. Check the data type
