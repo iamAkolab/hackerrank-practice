@@ -53,7 +53,7 @@ a,b = b,a
 
 #--------------------------------------------------------------------------------------
 # 10. Fibonacci series
-lambda x: x if x<=1 else fib(x-1) + fib(x-2)]
+lambda x: x if x<=1 else fib(x-1) + fib(x-2)
 
 #--------------------------------------------------------------------------------------
 # 11. Combine nested lists to a single list
@@ -69,7 +69,8 @@ numbers[::-1]
 
 #--------------------------------------------------------------------------------------
 # 14. Factorial of a number
-import math; fact_5 = math.factorial(5)
+import math; 
+fact_5 = math.factorial(5)
 
 #--------------------------------------------------------------------------------------
 # 15. List comprehension using “for” and “if”
