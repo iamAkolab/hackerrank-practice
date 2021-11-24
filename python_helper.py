@@ -116,11 +116,17 @@ isinstance([3,4,1997], list)
 23. While loop
 a=5
 while a > 0: a = a - 1; print(a)
+
+#--------------------------------------------------------------------------------------
 24. Write to a file using the print statement
 print("Hello, World!", file=open('file.txt', 'w'))
+
+#--------------------------------------------------------------------------------------
 25. Count the frequency of a character in a string
 print("umbrella".count('l'))
 # 2
+
+#--------------------------------------------------------------------------------------
 26. Merge two lists
 list1.extend(list2)
 # contents of list 2 will be added to the list1
