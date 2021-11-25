@@ -127,12 +127,12 @@ print("umbrella".count('l'))
 # 2
 
 #--------------------------------------------------------------------------------------
-26. Merge two lists
+# 26. Merge two lists
 list1.extend(list2)
 # contents of list 2 will be added to the list1
 
 #--------------------------------------------------------------------------------------
-27. Merge two dictionaries
+# 27. Merge two dictionaries
 dict1.update(dict2)
 # contents of dictionary 2 will be added to the dictionary 1
 
@@ -142,7 +142,7 @@ set1.update(set2)
 # contents of set2 will be copied to the set1
 
 #--------------------------------------------------------------------------------------
-29. Timestamp
+# 29. Timestamp
 import time; print(time.time())
 
 #--------------------------------------------------------------------------------------
@@ -150,6 +150,7 @@ import time; print(time.time())
 numbers = [9, 4, 5, 4, 4, 5, 9, 5, 4]
 most_frequent_element = max(set(test_list), key=test_list.count)
 # 4
+
 However, this is not efficient and we can do the same 
 using the collections module in a more efficient way like this.
 numbers = [9, 4, 5, 4, 4, 5, 9, 5, 4]
