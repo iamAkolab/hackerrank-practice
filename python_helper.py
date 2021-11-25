@@ -137,7 +137,7 @@ dict1.update(dict2)
 # contents of dictionary 2 will be added to the dictionary 1
 
 #--------------------------------------------------------------------------------------
-28. Merge two sets
+# 28. Merge two sets
 set1.update(set2)
 # contents of set2 will be copied to the set1
 
@@ -146,7 +146,7 @@ set1.update(set2)
 import time; print(time.time())
 
 #--------------------------------------------------------------------------------------
-30. Most frequent element
+# 30. Most frequent element
 numbers = [9, 4, 5, 4, 4, 5, 9, 5, 4]
 most_frequent_element = max(set(test_list), key=test_list.count)
 # 4
@@ -159,7 +159,7 @@ print(Counter(numbers).most_common()[0][0])
 # 4
 
 #--------------------------------------------------------------------------------------
-31. Nested list comprehension
+# 31. Nested list comprehension
 numbers = [[num] for num in range(10)]
 # [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9]]
 
