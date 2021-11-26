@@ -165,24 +165,24 @@ numbers = [[num] for num in range(10)]
 # [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9]]
 
 #--------------------------------------------------------------------------------------
-32. Octal to decimal
+# 32. Octal to decimal
 print(int('30', 8)) 
 # 24
 
 #--------------------------------------------------------------------------------------
-33. Convert key-value pair to dictionary
+# 33. Convert key-value pair to dictionary
 dict(name='allwin', age=23)
 
 #--------------------------------------------------------------------------------------
-34. Get quotient and remainder
+# 34. Get quotient and remainder
 quotient, remainder = divmod(4,5)
 
 #--------------------------------------------------------------------------------------
-35. Remove duplicate elements from a list
+# 35. Remove duplicate elements from a list
 list(set([4, 4, 5, 5, 6]))
 
 #--------------------------------------------------------------------------------------
-36. Sort list in ascending order
+# 36. Sort list in ascending order
 First, let us sort the list using the sorted() method. The sorted method will return the sorted list.
 sorted([5, 2, 9, 1])
 # [1, 2, 5, 9]
