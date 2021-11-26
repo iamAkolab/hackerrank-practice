@@ -168,12 +168,20 @@ numbers = [[num] for num in range(10)]
 32. Octal to decimal
 print(int('30', 8)) 
 # 24
+
+#--------------------------------------------------------------------------------------
 33. Convert key-value pair to dictionary
 dict(name='allwin', age=23)
+
+#--------------------------------------------------------------------------------------
 34. Get quotient and remainder
 quotient, remainder = divmod(4,5)
+
+#--------------------------------------------------------------------------------------
 35. Remove duplicate elements from a list
 list(set([4, 4, 5, 5, 6]))
+
+#--------------------------------------------------------------------------------------
 36. Sort list in ascending order
 First, let us sort the list using the sorted() method. The sorted method will return the sorted list.
 sorted([5, 2, 9, 1])
@@ -184,18 +192,28 @@ li.sort()
 
 print(li)
 # 1, 2, 5, 9
+
+#--------------------------------------------------------------------------------------
 37. Sort list in descending order
 sorted([5, 2, 9, 1], reverse=True)
 # [9, 5, 2, 1]
+
+#--------------------------------------------------------------------------------------
 38. Get a string of lower-case alphabets
 import string; print(string.ascii_lowercase)
 # abcdefghijklmnopqrstuvwxyz
+
+#--------------------------------------------------------------------------------------
 39. Get a string of upper case alphabets
 import string; print(string.ascii_uppercase)
 # ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+#--------------------------------------------------------------------------------------
 40. Get a string of digits from 0 to 9
 import string; print(string.digits)
 # 0123456789
+
+#--------------------------------------------------------------------------------------
 41. Hexadecimal to decimal
 print(int('da9', 16))
 # 3497
