@@ -194,22 +194,22 @@ print(li)
 # 1, 2, 5, 9
 
 #--------------------------------------------------------------------------------------
-37. Sort list in descending order
+# 37. Sort list in descending order
 sorted([5, 2, 9, 1], reverse=True)
 # [9, 5, 2, 1]
 
 #--------------------------------------------------------------------------------------
-38. Get a string of lower-case alphabets
+# 38. Get a string of lower-case alphabets
 import string; print(string.ascii_lowercase)
 # abcdefghijklmnopqrstuvwxyz
 
 #--------------------------------------------------------------------------------------
-39. Get a string of upper case alphabets
+# 39. Get a string of upper case alphabets
 import string; print(string.ascii_uppercase)
 # ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 #--------------------------------------------------------------------------------------
-40. Get a string of digits from 0 to 9
+# 40. Get a string of digits from 0 to 9
 import string; print(string.digits)
 # 0123456789
 
