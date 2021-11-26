@@ -214,23 +214,33 @@ import string; print(string.digits)
 # 0123456789
 
 #--------------------------------------------------------------------------------------
-41. Hexadecimal to decimal
+# 41. Hexadecimal to decimal
 print(int('da9', 16))
 # 3497
-42. Human readable DateTime
+
+#--------------------------------------------------------------------------------------
+# 42. Human readable DateTime
 import time; print(time.ctime())
 # Thu Aug 13 20:16:23 2020
-43. Convert a list of strings to integers
+
+#--------------------------------------------------------------------------------------
+# 43. Convert a list of strings to integers
 list(map(int, ['1', '2', '3']))
 # [1, 2, 3]
-44. Sort dictionary with keys
+
+#--------------------------------------------------------------------------------------
+# 44. Sort dictionary with keys
 # {'one': 1, 'four': 4, 'eight': 8}
 {key:d[key] for key in sorted(d.keys())}
 # {'eight': 8, 'four': 4, 'one': 1}
-45. Sort dictionary with values
+
+#--------------------------------------------------------------------------------------
+# 45. Sort dictionary with values
 # x = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
 {k: v for k, v in sorted(x.items(), key=lambda item: item[1])}
 # {0: 0, 2: 1, 1: 2, 4: 3, 3: 4}
+
+#--------------------------------------------------------------------------------------
 46. Rotate a list
 # li = [1,2,3,4,5]
 # right to left
