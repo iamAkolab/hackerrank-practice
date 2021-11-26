@@ -151,8 +151,8 @@ numbers = [9, 4, 5, 4, 4, 5, 9, 5, 4]
 most_frequent_element = max(set(test_list), key=test_list.count)
 # 4
 
-However, this is not efficient and we can do the same 
-using the collections module in a more efficient way like this.
+# However, this is not efficient and we can do the same 
+# using the collections module in a more efficient way like this.
 numbers = [9, 4, 5, 4, 4, 5, 9, 5, 4]
 
 from collections import Counter
@@ -183,10 +183,10 @@ list(set([4, 4, 5, 5, 6]))
 
 #--------------------------------------------------------------------------------------
 # 36. Sort list in ascending order
-First, let us sort the list using the sorted() method. The sorted method will return the sorted list.
+# First, let us sort the list using the sorted() method. The sorted method will return the sorted list.
 sorted([5, 2, 9, 1])
 # [1, 2, 5, 9]
-Next, let us sort this using the sort() method. The sort() method will sort the original list and not return anything.
+# Next, let us sort this using the sort() method. The sort() method will sort the original list and not return anything.
 li = [5, 2, 9, 1]
 li.sort()
 
