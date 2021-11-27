@@ -230,13 +230,13 @@ list(map(int, ['1', '2', '3']))
 
 #--------------------------------------------------------------------------------------
 # 44. Sort dictionary with keys
-# {'one': 1, 'four': 4, 'eight': 8}
+d = {'one': 1, 'four': 4, 'eight': 8}
 {key:d[key] for key in sorted(d.keys())}
 # {'eight': 8, 'four': 4, 'one': 1}
 
 #--------------------------------------------------------------------------------------
 # 45. Sort dictionary with values
-# x = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
+x = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
 {k: v for k, v in sorted(x.items(), key=lambda item: item[1])}
 # {0: 0, 2: 1, 1: 2, 4: 3, 3: 4}
 
@@ -251,9 +251,13 @@ li[2:] + li[:2]
 li[-n:] + li[:-n]
 li[-1:] + li[:-1] 
 [5, 1, 2, 3, 4]
+
+#--------------------------------------------------------------------------------------
 47. Remove numbers from a string
 ''.join(list(filter(lambda x: x.isalpha(), 'abc123def4fg56vcg2')))
 # abcdeffgvcg
+
+#--------------------------------------------------------------------------------------
 48. Transpose matrix
 list(list(x) for x in zip(*old_list))
 # old_list = [[1, 2, 3], [3, 4, 6], [5, 6, 7]]
@@ -261,6 +265,7 @@ list(list(x) for x in zip(*old_list))
 49. Filter even numbers from a list
 list(filter(lambda x: x%2 == 0, [1, 2, 3, 4, 5, 6] ))
 # [2, 4, 6]
+#--------------------------------------------------------------------------------------
 50. Unpacking values
 a, *b, c = [1, 2, 3, 4, 5]
 print(a) # 1
