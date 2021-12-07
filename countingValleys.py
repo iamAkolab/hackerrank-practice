@@ -1,17 +1,4 @@
-Homeinterview prepration kitHackerRank Counting Valleys Interview preparation kit solution
-HackerRank Counting Valleys Interview preparation kit solution
-YASH PALMarch 10, 2021
 
- 
-
-In this HackerRank Counting Valleys problem in the Interview preparation kit you have Given the sequence of up and down steps during a hike, find and print the number of valleys walked through.
-
-
-
-HackerRank Counting Valleys Interview preparation kit solution
-
-
-Problem solution in Python programming.
 #!/bin/python3
 
 import math
