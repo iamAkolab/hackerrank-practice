@@ -39,4 +39,16 @@ There are three pairs to test: (3, -7), (3,0) and (-7,0). The absolute differenc
 | 3 - -7 | = 10
 |3 - 0 | = 3
 |-7 - 0 | = 7
+
+Remember that the order of values in the substraction does not influence the result. The smallest of these absolute difference is 3.
+
+Sample Input 1
+10
+-59 -36 -13 1 -53 -92 -2 -96 -54 75
+
+Sample Output 1
+1
+Explanation 1
+The smallest absolute difference is |54 - - 53| = 1
+
 """
