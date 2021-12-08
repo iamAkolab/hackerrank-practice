@@ -48,7 +48,19 @@ Sample Input 1
 
 Sample Output 1
 1
+
 Explanation 1
 The smallest absolute difference is |54 - - 53| = 1
 
+Sample Input 2
+
+5
+1 -3 71 68 17
+
+Sample Output 2
+3
+
+Explanation 2
+
+The minimum absolute difference is |71 - 68| = 3
 """
