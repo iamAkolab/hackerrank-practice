@@ -64,6 +64,7 @@ Explanation 2
 
 The minimum absolute difference is |71 - 68| = 3
 """
+
 def minimumAbsoluteDifference(arr):
     # Write your code here
     absolute_diff = []
