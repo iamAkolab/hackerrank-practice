@@ -53,7 +53,6 @@ Explanation 1
 The smallest absolute difference is |54 - - 53| = 1
 
 Sample Input 2
-
 5
 1 -3 71 68 17
 
