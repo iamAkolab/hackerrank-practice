@@ -60,7 +60,6 @@ Sample Output 2
 3
 
 Explanation 2
-
 The minimum absolute difference is |71 - 68| = 3
 """
 
