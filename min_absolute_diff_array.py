@@ -65,14 +65,12 @@ The minimum absolute difference is |71 - 68| = 3
 
 def minimumAbsoluteDifference(arr):
     # Write your code here
-    absolute_diff = []
+    diffs = []
+    arr.sort()
     
-    
-    for i in range(len(arr)):
-        for j in range(len(arr) - 1):
-            diff = arr[i] - arr[j]
-            absolute_diff.append[diff]
-    return min(absolute_diff)
+    for i in range(len(arr)-1):
+        diffs.append(abs(arr[i]-arr[i+1]))
+    return min(diffs)
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
